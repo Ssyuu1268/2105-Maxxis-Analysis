@@ -22,26 +22,26 @@ This project delivers a technical analysis report for **2105 Maxxis**, combining
 ---
 
 ## 產出物 | Deliverables
-- `2105正新橡膠.html`：完整可視化分析報告（HTML）  
-  Full visual report (HTML)
-- （若有）`*.csv`：整理後的 OHLCV 與指標資料，可重複利用於回測/視覺化  
-  Cleaned OHLCV + indicators for reuse
+- `2105正新橡膠.html`：完整可視化分析報告（HTML）
+- （若有）`*.csv`：整理後的 OHLCV 與技術指標資料，可重複利用於回測/視覺化
 
-> 建議：若你想用 GitHub Pages 直接展示，把 HTML 改名為 `index.html` 會最方便。
+> 註：GitHub 會以「原始碼」方式顯示 HTML 屬正常現象。
 
 ---
 
 ## 如何查看報告 | How to view
-### 方式 A：直接下載在本機開啟（最穩）
-1. 點進 HTML 檔 → 右上角 **Download**
-2. 用 Chrome / Safari 開啟
 
-### 方式 B：GitHub Pages 線上展示（作品集推薦）
-1.（建議）將 `2105正新橡膠.html` 改名為 `index.html`
-2. Repo → **Settings → Pages**
-3. Source：**Deploy from a branch**
-4. Branch：`main` / Folder：`/(root)` → Save  
-完成後會得到網址：`https://<username>.github.io/<repo>/`
+### 方式 A：下載後在本機開啟（最穩）
+1. 在 repo 點選 `2105正新橡膠.html`
+2. 右上角點 **Download**（或 **View raw**）
+3. 下載後用 Chrome / Safari 開啟
+
+### 方式 B：GitHub Pages 線上展示（可選）
+若你希望外人點連結就能直接看到網頁版報告：
+1. （建議）將 `2105正新橡膠.html` 重新命名為 `index.html`
+2. Repo → **Settings** → **Pages**
+3. Source：**Deploy from a branch**；Branch：`main`；Folder：`/(root)` → Save
+4. 完成後使用 Pages 產生的網址瀏覽（格式：`https://<username>.github.io/<repo>/`）
 
 ---
 
